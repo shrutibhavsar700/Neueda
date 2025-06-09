@@ -5,6 +5,7 @@ import os
 # Add the current directory to the path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
+
 from models.portfolio import PortfolioManager
 from components.sidebar import render_sidebar
 from components.overview import render_overview
